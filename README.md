@@ -55,11 +55,9 @@ This repository contains the code for a Contact Management API built using Node.
 
       ```json
 
-    Copy code
-
-    `{
+    {
       "accessToken": "jwt_token"
-    }`
+    }
 
 #### Get Current User Details
 
@@ -68,18 +66,16 @@ This repository contains the code for a Contact Management API built using Node.
 -   **Access**: Private
 -   **Response**:
 
-    json
+    ```json
 
-    Copy code
-
-    `{
+    {
       "isSuccess": true,
       "user": {
         "id": "user_id",
         "userName": "User",
         "email": "user@example.com"
       }
-    }`
+    }
 
 ### Contact Endpoints
 
