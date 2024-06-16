@@ -16,7 +16,7 @@ This repository contains the code for a Contact Management API built using Node.
 #### Register a New User
 
 - **Description**: Register a new user.
-- **Route**: `POST /api/users`
+- **Route**: `POST /api/register`
 - **Access**: Public
 - **Request Body**:
   ```json
@@ -62,7 +62,7 @@ This repository contains the code for a Contact Management API built using Node.
 #### Get Current User Details
 
 -   **Description**: Retrieve details of the currently authenticated user.
--   **Route**: `GET /api/users/profile`
+-   **Route**: `GET /api/users/currentUserDetails`
 -   **Access**: Private
 -   **Response**:
 
@@ -208,7 +208,7 @@ Setup and Installation
     env
 
     `CONNECTION_STRING=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret`
+    ACCESS_TOKEN_SECRET_KEY=your_jwt_secret`
 
 4.  **Start the server**:
 
