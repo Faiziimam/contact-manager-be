@@ -1,0 +1,7 @@
+export const statusCode = {
+    VALIDATION_ERROR:400,
+    NOTFOUND:404,
+    UNAUTHORIZED:500,
+    FORBIDDEN:403,
+    SERVER:500
+}
