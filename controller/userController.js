@@ -87,6 +87,6 @@ export const loginUser = asyncHandler(async (req, res) => {
     @Access : private
 */
 export const getCurrentUserDetails = asyncHandler(async (req, res) => {
-    res.status(200).send({isSuccess:true, message:"Fetched user data successfully"});
-});
+    res.json({isSuccess:true,user:req.user});
+  });
   
