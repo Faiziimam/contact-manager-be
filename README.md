@@ -43,7 +43,7 @@ This project is a simple Contact and User Management API built using Node.js and
 3. Set up your MongoDB database and configure the connection string and JWT secret key in a `.env` file:
 
     ```env
-    MONGO_URI=your_mongo_db_connection_string
+    CONNECTION_STRING=your_mongo_db_connection_string
     ACCESS_TOKEN_SECRET_KEY=your_secret_key
     ```
 
