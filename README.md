@@ -190,31 +190,31 @@ Setup and Installation
 
 1.  **Clone the repository**:
 
-    bash
-
-    `git clone https://github.com/yourusername/contact-management-api.git
-    cd contact-management-api`
+    ```bash
+    git clone https://github.com/yourusername/contact-management-api.git
+    cd contact-management-api
+    ```
 
 2.  **Install dependencies**:
 
-    bash
+    ```bash
 
-    `npm install`
+    npm install
 
 3.  **Set up environment variables**:
 
     Create a `.env` file in the root of the project and add the following:
 
-    env
+    ```env
 
-    `CONNECTION_STRING=your_mongodb_connection_string
-    ACCESS_TOKEN_SECRET_KEY=your_jwt_secret`
+    CONNECTION_STRING=your_mongodb_connection_string
+    ACCESS_TOKEN_SECRET_KEY=your_jwt_secret
 
 4.  **Start the server**:
 
-    bash
-    
-    `npm start`
+   ```bash
+   npm start
+   ```
 
 Usage
 -----
@@ -234,4 +234,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 Contact
 -------
 
-For any inquiries, please contact yourname@example.com.
+For any inquiries, please contact faizkalwara@gmail.com.
