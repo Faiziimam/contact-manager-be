@@ -16,7 +16,7 @@ This repository contains the code for a Contact Management API built using Node.
 #### Register a New User
 
 - **Description**: Register a new user.
-- **Route**: `POST /api/register`
+- **Route**: `POST /api/users/register`
 - **Access**: Public
 - **Request Body**:
   ```json
