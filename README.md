@@ -21,9 +21,9 @@ This repository contains the code for a Contact Management API built using Node.
 - **Request Body**:
   ```json
   {
-    "userName": "NewUser",
-    "email": "newuser@example.com",
-    "password": "userpassword"
+        "userName": "NewUser",
+        "email": "newuser@example.com",
+        "password": "userpassword"
   }
 
 -   **Response**:
@@ -31,9 +31,9 @@ This repository contains the code for a Contact Management API built using Node.
     ```json
 
     {
-      "isSuccess": true,
-      "id": "user_id",
-      "email": "newuser@example.com"
+          "isSuccess": true,
+          "id": "user_id",
+          "email": "newuser@example.com"
     }
     
 #### Login a User
@@ -47,8 +47,8 @@ This repository contains the code for a Contact Management API built using Node.
 
 
     {
-      "email": "user@example.com",
-      "password": "userpassword"
+          "email": "user@example.com",
+          "password": "userpassword"
     }
 
 -   **Response**:
@@ -56,7 +56,7 @@ This repository contains the code for a Contact Management API built using Node.
       ```json
 
     {
-      "accessToken": "jwt_token"
+          "accessToken": "jwt_token"
     }
 
 #### Get Current User Details
@@ -69,12 +69,12 @@ This repository contains the code for a Contact Management API built using Node.
     ```json
 
     {
-      "isSuccess": true,
-      "user": {
-        "id": "user_id",
-        "userName": "User",
-        "email": "user@example.com"
-      }
+          "isSuccess": true,
+          "user": {
+            "id": "user_id",
+            "userName": "User",
+            "email": "user@example.com"
+          }
     }
 
 ### Contact Endpoints
